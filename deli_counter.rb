@@ -5,7 +5,7 @@ katz_deli = []
 def line(array)
   line_currently = [];
   if array.empty?
-    puts "The line is currently empty"
+    puts "The line is currently empty."
   else
     number = 1
     array.each do |customer|
