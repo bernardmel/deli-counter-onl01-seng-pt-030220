@@ -8,7 +8,7 @@ def line(array)
   if current_line.size == 0
     puts "The line is currently empty."
 
-  elsif current_line.size == 1
+  else
     puts "The line is currently #{num} #{name}:"
 
   end
