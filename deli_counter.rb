@@ -9,6 +9,7 @@ def line(array)
     puts "The line is currently empty."
 
   else
+    array.each do |name|
     puts "The line is currently: #{num}. #{name}:"
 
   end
