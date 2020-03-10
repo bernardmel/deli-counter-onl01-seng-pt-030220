@@ -1,2 +1,4 @@
 # Write your code here.
-katz_deli = []
+def array(katz_deli)
+  katz_deli=[]
+  
