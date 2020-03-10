@@ -8,10 +8,6 @@ def line(array)
   if current_line.size == 0
     puts "The line is currently empty."
 
-  else
-    array.each do |name|
-    puts "The line is currently: #{num}. #{name}:"
-
   end
 
 end
