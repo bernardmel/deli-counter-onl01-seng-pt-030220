@@ -8,7 +8,7 @@ def line(array)
   if current_line.size == 0
     puts "The line is currently empty."
   else
-    number=1
+    current_line >= 1
     array.each do |customer|
       current_line << "#{number}. #{customer}"
       number += 1
