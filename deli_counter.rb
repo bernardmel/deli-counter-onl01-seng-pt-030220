@@ -15,3 +15,8 @@ def line(array)
     puts "The line is currently: #{line_currently.join(" ")}"
   end
 end
+
+def take_a_number(array, name)
+  array << name
+  puts "welcome, #{name}. You are number #{array.size} in line."
+end
