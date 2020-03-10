@@ -1,5 +1,8 @@
 # Write your code here.
-def array(katz_deli)
-  katz_deli=[]
+katz_deli = []
+
+def array(line)
+  line.lenght == 0
   puts "The line is currently empty."
+
 end
